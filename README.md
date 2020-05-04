@@ -1,20 +1,20 @@
 # hugo-pacman-theme
 
-Demo: http://coderzh.github.io/hugo-pacman-theme/
+http://fancygo.cn
 
 ## config.toml
 
 ```toml
-BaseURL = "http://coderzh.github.io/hugo-pacman-theme/"
+BaseURL = "http://fancygo.cn/"
 LanguageCode = "zh-CN"
 HasCJKLanguage = true
-Title = "Hugo PacMan Theme Demo"
-Theme = "hugo-pacman-theme"
+Title = "FancyGo"
+Theme = "fancy"
 pygmentsStyle = "default"
 pygmentsUseClasses = true
 
 [Author]
-  Name = "coderzh"
+  Name = "FancyGo"
 
 [outputs]
   home = [ "RSS", "HTML" ]
@@ -25,27 +25,28 @@ pygmentsUseClasses = true
     baseName = "feed"
 
 [Params]
-  AuthorHomepage = "https://blog.coderzh.com"
-  BottomIntroduce = "Introduce1 <br/> Introduce2"
-  Description = ""
+  Author = "FancyGo"
+  AuthorHomepage = "http://fancygo.cn"
+  BottomIntroduce = "Linux 爱好者 <br/> Go 爱好者"
+  Description = "Description"
   Subtitle = "subtitle"
-  Weibo = "coderzh"
-  WeiboID = 1816308191
-  Twitter = "coderzh"
-  GitHub = "coderzh"
-  Facebook = "coderzh"
-  LinkIn = "coderzh"
-  Imglogo = "img/logo.svg"
-  AuthorImg = "img/author.jpg"
+  Weibo = "weibo"
+  WeiboID = 0000000
+  Twitter = "twitter"
+  GitHub = "github"
+  Facebook = "facebook"
+  LinkIn = "linkin"
+  Imglogo = "img/fancy.jpg"
+  AuthorImg = "img/fancy.jpg"
   DateFormat = "2006年01月02日"
   MonthFormat = "2006年01月"
   FancyBox = true
 
   [Params.GoogleAnalytics]
-    ID = "UA-10147768-2"
+    ID = ""
 
   [Params.Disqus]
-    ShortName = "coderzh"
+    ShortName = "fancygo"
 
   [Params.Strings]
     Search = "搜索"
@@ -69,7 +70,3 @@ pygmentsUseClasses = true
     URL = "/about"
     Weight = 2
 ```
-
-## ScreenShot
-
-![hugo-pacman-theme](https://raw.githubusercontent.com/coderzh/hugo-pacman-theme/eda9c351a538558f42a0b086a9320c99dd98e579/images/screenshot.png)

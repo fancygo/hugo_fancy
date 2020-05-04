@@ -1,10 +1,10 @@
 <div>
   <div id="imglogo">
-    <a href="{{ .Site.BaseURL }}"><img src='{{ .Site.BaseURL }}{{ .Site.Params.Imglogo | default "img/logo.svg" }}' alt="{{ .Site.Title }}" title="{{ .Site.Title }}"/></a>
+    <a href="{{ .Site.BaseURL }}"><img src='{{ .Site.BaseURL }}{{ .Site.Params.Imglogo }}' alt="{{ .Site.Title }}" title="{{ .Site.Title }}"/></a>
   </div>
   <div id="textlogo">
     <h1 class="site-name"><a href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a></h1>
-    <h2 class="blog-motto">{{ .Site.Params.Subtitle | default "awesome!"}}</h2>
+    <h2 class="blog-motto">{{ .Site.Params.Subtitle }}</h2>
   </div>
   <div class="navbar"><a class="navbutton navmobile" href="#" title="menu"></a></div>
   <nav class="animated">
@@ -17,9 +17,10 @@
       <li><a href="/">Home</a></li>
       {{ end }}
       <li>
-        <form class="search" method="get" action="https://www.google.com/search">
+        <form class="search" method="get" action="https://www.baidu.com/s" target="_blank">
           <div>
-            <input type="text" id="search" name="q" placeholder='{{ .Site.Params.Strings.Search | default "Search" }}'>
+            <!-- input type="text" id="search" name="wd" placeholder='{{ .Site.Params.Strings.Search | default "Search" }}'-->
+            <input type="text" id="search" name="wd" placeholder='{{ .Site.Params.Strings.Search }}'>
           </div>
         </form>
       </li>

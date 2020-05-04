@@ -1,46 +1,47 @@
-BaseURL = "http://coderzh.github.io/hugo-pacman-theme/"
+BaseURL = "192.168.1.1"
 LanguageCode = "zh-CN"
 HasCJKLanguage = true
-Title = "Hugo PacMan Theme Demo"
-Theme = "hugo-pacman-theme"
+Title = "Your Blog Title"
+Theme = "fancy"
 pygmentsStyle = "default"
 pygmentsUseClasses = true
+copyright = "Copyright (c) 2020. All rights reserved. 苏ICP备1111111号-2"
 
 [Author]
-  Name = "your-name"
+  Name = "YourName"
 
 [outputs]
   home = [ "RSS", "HTML" ]
-    
-[outputFormats] 
+
+[outputFormats]
   [outputFormats.RSS]
     mediatype = "application/rss"
     baseName = "feed"
 
 [Params]
-  AuthorHomepage = "your-home-page"
-  BottomIntroduce = "Introduce1 <br/> Introduce2"
-  Description = ""
-  Subtitle = "subtitle"
-  Weibo = ""
-  WeiboID = 123
-  Twitter = ""
-  GitHub = ""
-  Facebook = ""
-  LinkIn = ""
-  Imglogo = "img/logo.svg"
-  AuthorImg = "img/author.jpg"
+  Author = "YourName"
+  AuthorHomepage = "yourhome.com"
+  BottomIntroduce = "introduce1<br/> introduce2"
+  Description = "Your Description"
+  Subtitle = "Your subtitle"
+  Weibo = "YourWeb"
+  WeiboID = 0000000
+  Twitter = "yourtwitter"
+  Zhihu = "yourzhihu"
+  GitHub = "yourgithub"
+  Facebook = "yourfacebook"
+  LinkIn = "yourlink"
+  Imglogo = "img/fancy.jpg"
+  AuthorImg = "img/fancy.jpg"
   DateFormat = "2006年01月02日"
   MonthFormat = "2006年01月"
   FancyBox = true
-  CreativeCommons = true
-  MathJax = false
 
   [Params.GoogleAnalytics]
     ID = ""
 
   [Params.Disqus]
-    ShortName = ""
+    ShortName = "yourname"
 
   [Params.Strings]
     Search = "搜索"
@@ -63,3 +64,4 @@ pygmentsUseClasses = true
     Name = "关于"
     URL = "/about"
     Weight = 2
+

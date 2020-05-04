@@ -1,24 +1,28 @@
 <div id="footer" >
   <div class="line">
     <span></span>
-    {{ $authorImg := (.Site.Params.AuthorImg | default "img/author.jpg") }}
+    {{ $authorImg := (.Site.Params.AuthorImg | default "img/fancy.jpg") }}
     <div style='background:no-repeat url("{{ .Site.BaseURL }}{{ $authorImg }}") left top;-webkit-background-size:6.875em 6.875em;-moz-background-size:6.875em 6.875em;background-size:6.875em 6.875em;' class="author" ></div>
   </div>
   <section class="info">
-    <p>{{ .Site.Params.BottomIntroduce | default "" | safeHTML }}</p>
+    <p>{{ .Site.Params.BottomIntroduce | safeHTML }}</p>
   </section>
   <div class="social-font clearfix">
-    <a href='http://weibo.com/{{ .Site.Params.Weibo | default "coderzh" }}' target="_blank" title="weibo"></a>
-    <a href='https://twitter.com/{{ .Site.Params.Twitter | default "coderzh" }}' target="_blank" title="twitter"></a>
-    <a href='https://github.com/{{ .Site.Params.GitHub | default "coderzh" }}' target="_blank" title="github"></a>
-    <a href='https://www.facebook.com/{{ .Site.Params.Facebook | default "coderzh" }}' target="_blank" title="facebook"></a>
-    <a href='https://www.linkedin.com/{{ .Site.Params.LinkIn | default "coderzh" }}' target="_blank" title="linkedin"></a>
+    <a href='http://weibo.com/{{ .Site.Params.Weibo }}' target="_blank" title="weibo"></a>
+    <a href='https://zhuanlan.zhihu.com/{{ .Site.Params.Zhihu }}' target="_blank" title="zhihu"></a>
+    <a href='https://github.com/{{ .Site.Params.GitHub }}' target="_blank" title="github"></a>
+    <a href='https://www.facebook.com/ }}' target="_blank" title="facebook"></a>
+    <a href='https://www.linkedin.com/ }}' target="_blank" title="linkedin"></a>
   </div>
-  <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © {{ now.Format "2006" }}
+  <div class="copy">
+  <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/fancygo/fancy_hugo_theme" target="_blank" title="fancy_hugo_theme">fancy</a> © {{ now.Format "2006" }}
     {{ if .Site.Author.Name }}
     <a href="{{ .Site.BaseURL }}" target="_blank" title="{{ .Site.Author.Name }}">{{ .Site.Author.Name }}</a>
     {{ else }}
     <a href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a>
     {{ end }}
+    <br>
+    Copyright (c) 2020. All rights reserved. <a href="http://beian.miit.gov.cn" target="_blank"> 苏ICP备15022894号-2</a>
   </p>
+  <div>
 </div>
