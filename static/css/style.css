@@ -144,22 +144,26 @@ header nav{float:left;width:100%;font-size:112.5%;padding-top:.5em;max-height:.0
 }article header.article-info >p.article-time:before{font-family:"FontAwesome";font-size:130%;content:"\f017";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 article .article-content{padding:1.5em 4%;}
 article .article-content .kb{padding:.1em .6em;border:1px solid #ccc;background-color:code-color;color:#8f8f8f;-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;box-shadow:0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;-webkit-border-radius:3px;border-radius:3px;display:inline-block;margin:0 .1em;text-shadow:0 1px 0 #fff;line-height:1.5;white-space:nowrap}
-article .article-content h1,article .article-content h2{font-size:180%;line-height:1.2em}
-article .article-content h3,article .article-content h4,article .article-content h5,article .article-content h6{font-size:140%}
-article .article-content h1,article .article-content h2,article .article-content h3,article .article-content h4,article .article-content h5,article .article-content h6{color:#333;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:.3em 0;margin:.5em 0;}
-article .article-content h1 >code,article .article-content h2 >code,article .article-content h3 >code,article .article-content h4 >code,article .article-content h5 >code,article .article-content h6 >code{color:#a3a3a3}
+article .article-content h1{font-size:180%;line-height:1.2em}
+article .article-content h2{font-size:170%;line-height:1.2em}
+article .article-content h3{font-size:160%;line-height:1.2em}
+article .article-content h4{font-size:150%;line-height:1.2em}
+article .article-content h5{font-size:140%;line-height:1.2em}
+article .article-content h6{font-size:140%;line-height:1.2em}
+article .article-content h1,article .article-content h2,article .article-content h3,article .article-content h4,article .article-content h5,article .article-content h6{color:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:.3em 0;margin:.5em 0;}
+article .article-content h1 >code,article .article-content h2 >code,article .article-content h3 >code,article .article-content h4 >code,article .article-content h5 >code,article .article-content h6 >code{color:#000}
 article .article-content hr{border:1px solid #dbdbdb}
 article .article-content strong,article .article-content em{font-weight:bold}
 article .article-content acronym,article .article-content abbr{border-bottom:1px dotted}
-article .article-content blockquote{border-left:.2em solid #2967B0;margin:.65em 0 .65em 4%;padding-left:1%;line-height:1.5;font-size:110%;}
-article .article-content blockquote footer{background:#fafafa;padding:0;margin:0;font-size:80%;line-height:1em}
+article .article-content blockquote{border-left:.2em solid #2967B0;margin:.65em 0 .65em 4%;padding-left:1%;line-height:1.5;font-size:100%;}
+article .article-content blockquote footer{background:#fafafa;padding:0;margin:0;font-size:100%;line-height:1em}
 article .article-content blockquote cite{font-style:italic;padding-left:.5em}
 article .article-content ul,article .article-content ol{padding-left:2em;font-size:105%;}
 @media only screen and (min-width: 768px){article .article-content ul,article .article-content ol{padding-left:3em}
 }article .article-content ul li{list-style:disc;text-align:match-parent;margin:.5em 0}
 article .article-content ol li{list-style-type:decimal;margin:.5em 0}
 article .article-content dl dt{font-weight:blod}
-article .article-content ul li>code,article .article-content ol li>code,article .article-content p code,article .article-content strong code,article .article-content em code{font-family:Monaco,Menlo,Consolas,Courier New,monospace;background:#eee;color:#747070;border:1px solid #d6d6d6;padding:0 5px;margin:0 2px;font-size:90%;white-space:nowrap;text-shadow:0 1px #fff}
+article .article-content ul li>code,article .article-content ol li>code,article .article-content p code,article .article-content strong code,article .article-content em code{font-family:Monaco,Menlo,Consolas,Courier New,monospace;background:#eee;color:#747070;border:1px solid #d6d6d6;padding:0 5px;margin:0 2px;font-size:100%;white-space:nowrap;text-shadow:0 1px #fff}
 article .article-content p{font-size:105%;line-height:1.7;margin:.7em 0;}
 @media only screen and (min-width: 1024px){article .article-content p{margin:1.2em 0}
 }article .article-content img,article .article-content video,article .article-content figure img{max-width:100%;display:block;margin:auto;height:auto;vertical-align:middle;padding-top:.5em;}
